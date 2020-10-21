@@ -41,7 +41,7 @@ input[type=submit]:hover {
 <nav class="navbar navbar-inverse ">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="<?php echo base_url() ?>/backend/backendmanager"><?php echo "Welcome nguyenmanh" ?></a>
+      <a class="navbar-brand" href="<?php echo base_url() ?>/backend/backendmanager"><?php echo "Welcome thanhq" ?></a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="<?php echo base_url() ?>/editpass">Thay đổi mật khẩu </a></li>
@@ -57,13 +57,13 @@ input[type=submit]:hover {
 <?php foreach ($dulieuketqua as $value): ?>
   <div id="Chanegedpass"  style="width:500px;margin-left:30%">
    <input type="hidden" id="id" value=<?php echo $value['id']?>>
-    <label for="fname">old password</label>
+    <label for="fname">Mật khẩu cũ</label>
     <input type="text" id="oldpassword" name="oldpassword" >
-    <label for="lname">New Password</label>
+    <label for="lname">Mật khẩu mới</label>
     <input type="text" id="NewPassword" name="NewPassword">
-    <label for="country">confirm Password</label>
+    <label for="country">Nhập lại mật khẩu</label>
     <input type="text" id="cfNewPassword" name="cfNewPassword">
-    <button id="changepasswords"  value="Submit"> Submit </button>
+    <button id="changepasswords"  value="Submit">Đổi mật khẩu</button>
 </div>
   <?php endforeach ?>
 </div>
@@ -83,7 +83,7 @@ input[type=submit]:hover {
   <!-- Page level custom scripts -->
   <script src="<?php echo base_url(); ?>js/demo/chart-area-demo.js"></script>
   <script src="<?php echo base_url(); ?>js/demo/chart-pie-demo.js"></script>
-  <script type="text/javascript" src=" <?php echo base_url(); ?>1.js"></script>
+  <script type="text/javascript" src=" <?php echo base_url(); ?>script.js"></script>
 
 </body>
 </html>

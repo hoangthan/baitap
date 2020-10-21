@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">  
 			<script type="text/javascript" src="<?php echo base_url(); ?>vendor/bootstrap.js"></script>
-		 	<script type="text/javascript" src=" <?php echo base_url(); ?>1.js"></script>
+		 	<script type="text/javascript" src=" <?php echo base_url(); ?>script.js"></script>
 		 	<script type="text/javascript" src=" <?php echo base_url(); ?>jqueryupload/js/vendor/jquery.ui.widget.js"></script>
 		 	<script type="text/javascript" src=" <?php echo base_url(); ?>jqueryupload/js/jquery.fileupload.js"></script>
 			<link rel="stylesheet" href=" <?php echo base_url(); ?>vendor/bootstrap.css">
@@ -66,7 +66,7 @@
 						<div class="row">
 							<label  class="col-sm-4 form-control-label text-xs-right">Tên</label>
 								<div class="col-sm-8">
-								<input name="ten"type="text" class="form-control" id="ten" placeholder="nguyenmanh">
+								<input name="ten"type="text" class="form-control" id="ten" placeholder="thanhq">
 								</div>
 						</div>
 					</div>

@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost/nguyenvanmanh/';
+$config['base_url'] = 'http://localhost:8080/thanhq/';
 
 /*
 |--------------------------------------------------------------------------
@@ -530,5 +530,5 @@ $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-@\=';
 $config['img_book_url'] = 'upload/book/';
 $config['smtp_host'] = 'ssl://smtp.gmail.com';
 $config['smtp_port'] = 465;
-$config['smtp_user'] = 'nguyenmanh1891997@gmail.com';
-$config['smtp_pass'] = 'zeksouhwcrlajknd';
+$config['smtp_user'] = 'thanlike1@gmail.com';
+$config['smtp_pass'] = 'hvyvjohomzdhpmoj';

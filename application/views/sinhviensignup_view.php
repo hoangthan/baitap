@@ -26,26 +26,25 @@
       <div class="card-body p-0">
         <!-- Nested Row within Card Body -->
         <div class="row">
-          <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
           <div class="col-lg-7">
             <div class="p-5">
               <div class="text-center">
-                <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
+                <h1 class="h4 text-gray-900 mb-4">Đăng ký</h1>
               </div>
               <div class="user">
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="tel" class="form-control form-control-user"  placeholder="Enter Phone" name="phone" id="phone">
+                    <input type="tel" class="form-control form-control-user"  placeholder="Nhập số điện thoại" name="phone" id="phone">
                   </div>
                   <div class="col-sm-6">
-                    <input type="email" class="form-control form-control-user" placeholder="Enter Email" name="email" id="email" required>
+                    <input type="email" class="form-control form-control-user" placeholder="Nhập Email" name="email" id="email" required>
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-user" placeholder="Enter address" name="address" id="address" required>
+                  <input type="text" class="form-control form-control-user" placeholder="Địa chỉ" name="address" id="address" required>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control form-control-user"  placeholder="Enter Username" name="username" id="username" required>
+                  <input type="text" class="form-control form-control-user"  placeholder="Username" name="username" id="username" required>
                 </div>
                 <div class="form-group">
                 <select name="roldangky"  class="form-control" id="exampleFormControlSelect">
@@ -55,25 +54,29 @@
                 </div>
                 <div class="form-group row">
                   <div class="col-sm-6 mb-3 mb-sm-0">
-                    <input type="text" class="form-control form-control-user" id="password" placeholder="Enter Password" name="password" required>
+                    <input type="text" class="form-control form-control-user" id="password" placeholder="Mật khẩu" name="password" required>
                   </div>
                   <div class="col-sm-6">
-                    <input type="text" class="form-control form-control-user"id="passwordconfirms" placeholder="Repeat Password" name="psw-repeat" required>
+                    <input type="text" class="form-control form-control-user"id="passwordconfirms" placeholder="Nhập lại mật khẩu" name="psw-repeat" required>
                   </div>
                 </div>
                 <button type="submit" class="signupbtn btn btn-primary btn-user btn-block">
-                  Register Account
+                  Đăng ký
                 </button>
               </div>
               <hr>
               <div class="text-center">
-                <a class="small" href="<?php echo base_url() ?>sinhvien/quenmatkhau">Forgot Password?</a>
+                <a class="small" href="<?php echo base_url() ?>sinhvien/quenmatkhau">Quên mật khẩu</a>
               </div>
               <div class="text-center">
-                <a class="small" href="<?php echo base_url() ?>">Already have an account? Login!</a>
+                <a class="small" href="<?php echo base_url() ?>login">Bạn đã có tài khoản? Đăng nhập</a>
               </div>
             </div>
           </div>
+          <div class="col-lg-5">
+                  <h2 style = "text-align: center; padding-top: 150px;">Hoàng Quang Thân</h2>
+                  <h2 style = "text-align: center">AT130449</h2>
+              </div>
         </div>
       </div>
     </div>

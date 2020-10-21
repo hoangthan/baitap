@@ -9,12 +9,14 @@ var numbers = /[0-9]/g;
 var lowerCaseLetters = /[a-z]/g;
 var getUrl = window.location;
 var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+
 $("#password").on("focus",function(){
     $("#message").css("display","block");
 });
 $("#password").on("blur",function(){ 
       $("#message").css("display","none");
 });
+
 function validatepassword () {
 
     if(myInput.val().match(lowerCaseLetters)) {  
@@ -55,7 +57,8 @@ function validatepassword () {
 $("#password").on("keyup",function(){
     validatepassword();
 });
-//gui du lieu len server 
+
+//Send register data to server
 $(".signupbtn").on("click",function(){
     var phone = $("#phone").val();
     var emailsubmit = $("#email").val();
@@ -65,7 +68,7 @@ $(".signupbtn").on("click",function(){
     var passwordconfirms = $("#passwordconfirms").val();
     var Chucvu = $("#exampleFormControlSelect").val();
     if(!(myInput.val().length  > 8) || !(myInput.val().match(numbers)) || !(myInput.val().match(upperCaseLetters)) || !(myInput.val().match(lowerCaseLetters))) {
-        alert(" Mat khau ban nhap chua du manh vui long nhap lai");
+        alert("Mật khẩu quá yếu");
     }  else if (password != passwordconfirms)
      {
       alert(" Mat khau phai giong nhau");
@@ -100,7 +103,6 @@ $(".signupbtn").on("click",function(){
 });
 
 $("#btnlogin").on("click",function(){
-  // alert("clicked");
   var uname = $("#studentlogins #uname").val();
   var password = $("#studentlogins #password").val();
   var data = {
@@ -130,12 +132,12 @@ $("#changepasswords").on("click",function(){
   var confimnewpass= $("#Chanegedpass #cfNewPassword").val();
   var id    = $("#Chanegedpass #id").val();
   if(!(myinput1.val().length  > 8) || !(myinput1.val().match(numbers)) || !(myinput1.val().match(upperCaseLetters)) || !(myinput1.val().match(lowerCaseLetters))) {
-    alert(" Mat khau ban nhap chua du manh vui long nhap lai");
+    alert("Mật khẩu quá yếu");
   }
   else if(oldpass==newpass){
-    alert("mat khau cu va moi phai khac nhau");
+    alert("Mật khẩu mới không được giống mật khẩu cũ");
   } else if(newpass != confimnewpass) {
-    alert("mat khau moi phai giong nhau ");
+    alert("Mật khẩu mới không khớp");
   }else {
     var data2 = {
       'id'  : id,
@@ -158,8 +160,6 @@ $("#changepasswords").on("click",function(){
 
     }
   })
-
-
 })
 });
  

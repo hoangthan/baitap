@@ -27,26 +27,18 @@
 <h3 style="text-align: center;"> Sách mới nhất </h3>
     <div class="container">
         <div class="row col-md-12">
-            <div class="card col-md-4 col-lg-4" >
-                <img class="card-img-top" src="https://www.ikea.com/us/en/images/products/matvra-book-hey-flavours-__0751118_PE746923_S5.JPG?f=xs" alt="Card image cap">
+        <div class="card col-md-6 col-lg-6" >
+                <img class="card-img-top" src="https://hoc247.net/fckeditorimg/upload/images/2019-05-10_175954.png?enablejsapi=1" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Cơ sở lý thuyết mật mã </h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Mượn ngay</a>
                 </div>
             </div>
-            <div class="card col-md-4 col-lg-4" >
-                <img class="card-img-top" src="https://www.ikea.com/us/en/images/products/matvra-book-hey-flavours-__0751118_PE746923_S5.JPG?f=xs" alt="Card image cap">
+            <div class="card col-md-6 col-lg-6" >
+                <img class="card-img-top" src="https://hoc247.net/fckeditorimg/upload/images/2019-05-10_175954.png?enablejsapi=1" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">cơ sở an toàn thông tin</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-            <div class="card col-md-4 col-lg-4" >
-                <img class="card-img-top" src="https://www.ikea.com/us/en/images/products/matvra-book-hey-flavours-__0751118_PE746923_S5.JPG?f=xs" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Phát triển phần mềm </h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>

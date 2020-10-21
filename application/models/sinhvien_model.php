@@ -72,9 +72,9 @@ class sinhvien_model extends CI_Model {
   	
         return $this->db->update('sinhvien', $dataStudentupdate); 
     }
+    
     public function studentlogin ( $uname,$pass) {
          $this->db->where('username', $uname);
-        //  $this->db->where('password', $pass);
          $query = $this->db->get('sinhvien');
          $row = $query->row();
          $session_data   =   array(
@@ -84,8 +84,8 @@ class sinhvien_model extends CI_Model {
             );
             $this->session->set_userdata($session_data);
         return $row ? password_verify($pass, $row->password) : false;
-
     }
+
     public function getstudentbyname($uname)
     {
         $this->db->select('*');

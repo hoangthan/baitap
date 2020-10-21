@@ -35,7 +35,7 @@
               <div class="col-lg-12">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
+                    <h1 class="h4 text-gray-900 mb-4">Đăng nhập</h1>
                   </div>
                   <div class="user">
                     <div class="form-group">
@@ -44,14 +44,14 @@
                     <div class="form-group">
                       <input type="password" class="form-control form-control-user" id="password" placeholder="Password">
                     </div>
-                    <button id="btnlogin" class="btn btn-primary btn-user btn-block"> Login </button>
+                    <button id="btnlogin" class="btn btn-primary btn-user btn-block">Đăng nhập</button>
                     </div>
                   <hr>
                   <div class="text-center">
-                    <a class="small" href="<?php echo base_url() ?>sinhvien/quenmatkhau">Forgot Password?</a>
+                    <a class="small" href="<?php echo base_url() ?>sinhvien/quenmatkhau">Quên mật khẩu</a>
                   </div>
                   <div class="text-center">
-                    <a class="small" href="<?php echo base_url(); ?>sinhvien">Create an Account!</a>
+                    <a class="small" href="<?php echo base_url(); ?>sinhvien">Đăng kí tài khoản</a>
                   </div>
                 </div>
               </div>

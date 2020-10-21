@@ -33,35 +33,38 @@
           <div class="card-body p-0">
             <!-- Nested Row within Card Body -->
             <div class="row">
-              <div class="col-lg-6 d-none d-lg-block bg-password-image"></div>
               <div class="col-lg-6">
                 <div class="p-5">
                 <?php if(isset($dulieutrave))  foreach ($dulieutrave as $ketqua): ?>
                   <div class="alert alert-danger"> <?php echo $ketqua ?> </div>
                     <?php endforeach ?>
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-2">bạn đã lỡ quên mật khẩu của mình?</h1>
+                    <h1 class="h4 text-gray-900 mb-2">Quên mật khẩu</h1>
                     <p class="mb-4">Nhập email đã đăng ký vào đây để sử dụng chức năng này</p>
                   </div>
                   <?php echo form_open(base_url('/sinhvien/forgotpass')); ?>
                     <div class="form-group">
-                      <input  name="email" type="email" class="form-control form-control-user" id="exampleInputEmail"  placeholder="Enter Email Address...">
+                      <input  name="email" type="email" class="form-control form-control-user" id="exampleInputEmail"  placeholder="Nhập email">
                       <?php if(validation_errors()){echo form_error('email', '<div class="alert alert-danger">', '</div>');} ?>
                     </div>
                     <button  class="btn btn-primary btn-user btn-block">
-                      Reset Password
+                      Khôi phục mật khẩu
                     </button>
                   </form>
                   <?php echo form_close(); ?>
 
                   <hr>
                   <div class="text-center">
-                  <a class="small" href="<?php echo base_url(); ?>sinhvien">Create an Account!</a>
+                  <a class="small" href="<?php echo base_url(); ?>sinhvien">Đăng ký tài khoản</a>
                   </div>
                   <div class="text-center">
-                  <a class="small" href="<?php echo base_url() ?>">Already have an account? Login!</a>
+                  <a class="small" href="<?php echo base_url() ?>login">Đã có tài khoản? Đăng nhập</a>
                   </div>
                 </div>
+              </div>
+              <div class="col-lg-6">
+                  <h2 style = "text-align: center; padding-top: 150px;">Hoàng Quang Thân</h2>
+                  <h2 style = "text-align: center">AT130449</h2>
               </div>
             </div>
           </div>
