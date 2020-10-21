@@ -89,7 +89,7 @@
 
   <!-- Custom scripts for all pages-->
   <script src="<?php echo base_url(); ?>js/sb-admin-2.min.js"></script>
-  <script src="<?php echo base_url(); ?>1.js"></script>
+  <script src="<?php echo base_url(); ?>script.js"></script>
 
 </body>
 
